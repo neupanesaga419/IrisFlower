@@ -54,5 +54,11 @@
         color: chocolate;
         font-size: 12px;
     }
+    .image_div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   
 }

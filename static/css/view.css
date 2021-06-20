@@ -4,7 +4,7 @@
 {
     .main_view
     {
-        background:linear-gradient(to right top,rgba(122,155,164,0.3),rgba(112,152,170,0.6));
+        background:linear-gradient(to right top,rgba(15, 203, 255, 0.3)rgba(233, 113, 0, 0.986)));
         height: 100vh;
         width: 100vw;
     }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            *
+            {
+                margin: 0;
+                padding: 0;
+            }
+        body
+        {
+            background:linear-gradient(to top right,rgba(255,125,150,0.7),rgba(255,150,125,0.4));
+          
+        }
+        .main_heading
+        {
+            margin:10px;
+            font-family: "Elephant",sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+        h2
+        {
+            margin:10px;
+            font-family: "Elephant",sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px; 
+            text-align: center;
+        }
+        h2 span
+        {
+            font-family: "Verdana",sans-serif;  
+        }
+        .form_div
+        {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .form
+        {
+            padding: 15px;
+        }
+        .form input
+        {
+            padding: 5px;
+            margin: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 class="main_heading"><center>Predict Flower</center></h1>
+        <h2><span>Iris_versicolora</span> Or <span>Iris_Setosa</span>OR <span>Iris_Virginica</span></center></h2>        
+        <div class="form_div">
+           
+            <form action="{{url_for('view')}}" method='POST' class="form">
+                <input type="text" name="S_length" id="" placeholder="Enter Sepal length"><br>
+                <input type="text" name="S_width" id="" placeholder="Enter Sepal Width"><br>
+                <input type="text" name="P_length" id="" placeholder="Enter Petal length"><br>
+                <input type="text" name="P_width" id="" placeholder="Enter Petal Width"><br>
+                <input type="submit" value="predict">
+                
+            </form>
+            <!-- https://weneedfun.com/wp-content/uploads/2016/01/Iris-Flower-12.jpg -->
+            <img src="../static/flower.jpg" alt="flower" height="450px" width="450px">
+        </div>  
+        <h1>sucessfully added Github and git</h1>
+        <script src="" async defer></script>
+    </body>
+</html>

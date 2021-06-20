@@ -59,25 +59,27 @@
         </style>
     </head>
     <body>
-        <div class="heading_upper">  
-            <h1 class="main_heading"><center>Predict Flower</center></h1>
-            <h2><span>Iris_versicolora</span> Or <span>Iris_Setosa</span>OR <span>Iris_Virginica</span></center></h2> 
-           </div>
-    
-        <div class="form_div">
-           
-            <form action="{{url_for('view')}}" method='POST' class="form">
-                <input type="text" name="S_length" id="" placeholder="Enter Sepal length"><br>
-                <input type="text" name="S_width" id="" placeholder="Enter Sepal Width"><br>
-                <input type="text" name="P_length" id="" placeholder="Enter Petal length"><br>
-                <input type="text" name="P_width" id="" placeholder="Enter Petal Width"><br>
-                <input type="submit" value="predict">
-                
-            </form>
-            <!-- https://weneedfun.com/wp-content/uploads/2016/01/Iris-Flower-12.jpg -->
-            <img src="../static/flower.jpg" alt="flower" height="450px" width="450px">
-        </div>  
-        <div><h1>sucessfully added Github and git</h1></div>
+        <div class="main_section">
+            <div class="heading_upper">  
+                <h1 class="main_heading"><center>Predict Flower</center></h1>
+                <h2><span>Iris_versicolora</span> Or <span>Iris_Setosa</span>OR <span>Iris_Virginica</span></center></h2> 
+            </div>
+        
+            <div class="form_div">
+            
+                <form action="{{url_for('view')}}" method='POST' class="form">
+                    <input type="text" name="S_length" id="" placeholder="Enter Sepal length"><br>
+                    <input type="text" name="S_width" id="" placeholder="Enter Sepal Width"><br>
+                    <input type="text" name="P_length" id="" placeholder="Enter Petal length"><br>
+                    <input type="text" name="P_width" id="" placeholder="Enter Petal Width"><br>
+                    <input type="submit" value="predict">
+                    
+                </form>
+                <!-- https://weneedfun.com/wp-content/uploads/2016/01/Iris-Flower-12.jpg -->
+                <img src="../static/flower.jpg" alt="flower" height="450px" width="450px" id="image">
+            </div>  
+            <div><h1>sucessfully added Github and git</h1></div>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>

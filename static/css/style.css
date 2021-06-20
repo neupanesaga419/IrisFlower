@@ -2,16 +2,35 @@
 {
     margin: 0;padding: 0;
 }
+#image
+{
+    height: 450px;
+    width: 450px;
+}
 
 @media screen and (max-width:680px) {
 
     body
     {
-        display: flex;
+        
         background-color: aliceblue;
-        flex-direction: column;
+        
     }
-
+     .main_section
+     {
+        flex-direction: column;
+        display: flex;
+     }
+     #image
+     {
+         height: 100%;
+         width: 100%;
+     }
+     .form_div
+     {
+         display: flex;
+         flex-direction: column;
+     }
     h1
     {
         color:blue;

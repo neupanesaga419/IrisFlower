@@ -7,7 +7,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/view.css')}}">
     </head>
     <style>
         *{
@@ -45,6 +45,8 @@
        }
     </style>
     <body>
+    <div class="main_view">
+
     
         <h1>The Flower Is</h1>
         
@@ -64,6 +66,7 @@
              {% endif %}
         </div>
         <p><a href="/">GO Back to Main Page</a></p>
+    </div>
         <script src="" async defer></script>
     </body>
 </html>

@@ -18,30 +18,41 @@
     }
      .main_section
      {
+         height: 100vh;
+         width: 100vw;
         flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
      }
+     .heading_upper
+     {
+         height: 25%;
+         width: 100vw;
+     }
      #image
      {
-         height: 75%;
-         width: 75%;
+         height: 250px;
+         width: 250px;
      }
      .form_div
      {
+        height: 70%;
          display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
+         width: 100vw;
      }
     h1
     {
-        color:blue;
+        color:rgb(12, 0, 9);
         font-size: 15px;
     }
-    .main_heading
+    h2
     {
-           
+        color: chocolate;
+        font-size: 12px;
     }
+  
 }
